@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/Tablets.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+h1 {
+  color: black;
+  text-transform: capitalize;
+}
+
+.box {
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(/images/white.jpg);
+  border-style: double;
+  text-align: center;
+}
+
+.box h2 {
+  color: chocolate;
+  text-transform: uppercase;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  background-color: aliceblue;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px salmon solid;
+  padding: 10px 10px;
+  outline: none;
+  border-radius: 20px;
+}
+
+.box button[type="submit"] {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  text-decoration: solid;
+}
+
+.box button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
